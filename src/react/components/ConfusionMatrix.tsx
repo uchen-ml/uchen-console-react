@@ -88,6 +88,7 @@ export function ConfusionMatrix() {
               <ValueCell
                 key={`${category}-${predictedCategory}`}
                 value={values![i]![j]!}
+                onHover={() => {}}
               ></ValueCell>
             ))}
           </tr>

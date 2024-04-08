@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import ConfusionMatrixCard from "../components/ConfusionMatrixCard.astro";
+import LossChartCard from "../components/LossChartCard.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -14,6 +15,7 @@ import ConfusionMatrixCard from "../components/ConfusionMatrixCard.astro";
     </p>
     <ul role="list" class="link-card-grid">
       <ConfusionMatrixCard />
+      <LossChartCard />
       <Card
         href="https://docs.astro.build/"
         title="Documentation"
